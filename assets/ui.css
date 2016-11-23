@@ -1,0 +1,62 @@
+html,
+body {
+    font-family: Century Gothic, sans-serif !important;
+    padding: 0;
+    margin: 0;
+    background: #333
+
+}
+
+
+#container {
+    margin: 0;
+    padding: 0;
+    padding-top: 4vh;
+    height: auto;
+    width: 100%;
+    text-transform: uppercase;
+    color: #111;
+    font-size: 5vh;
+    font-weight: bold;
+}
+#board {
+    padding: 0;
+    margin: auto;
+    width: 54vh;
+    height: 54vh;
+}
+
+.cell {
+    padding: 0;
+    margin: 0.5vh;
+    height: 17vh;
+    width: 17vh;
+    line-height: 17vh;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0;
+    border-radius: 0px;
+    background: #000;
+    cursor: pointer;
+    float: left;
+}
+.button {
+    margin: 0.5vh;
+    padding: 0;
+    height: 10vh;
+    width: 53vh;
+    line-height: 10vh;
+    vertical-align: middle;
+    background: #000;
+    text-align: center;
+    border-radius: 0px;
+    cursor: pointer;
+    float: left;
+    color:grey;
+    font-family: Century Gothic, sans-serif;
+}
+.cell {
+    color: white;
+    font-size: 75px;
+    font-family: Century Gothic, sans-serif;
+}
